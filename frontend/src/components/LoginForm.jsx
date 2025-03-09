@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InputField from "./InputField";
 import useAuth from "../hooks/useAuth";
+import { Link } from "react-router-dom";
 
 export default function LoginForm() {
   const [formData, setFormData] = useState({});
@@ -53,9 +54,9 @@ export default function LoginForm() {
         />
         <p className="text-center flex flex-col 2xl:flex-row lg:gap-1">
           ¿Olvidaste tu contraseña?{" "}
-          <a href="/register" className="text-blue-800 font-bold">
+          <Link to="/register" className="text-blue-800 font-bold">
             Recuperar contraseña
-          </a>
+          </Link>
         </p>
       </div>
     </form>

@@ -1,5 +1,6 @@
 import LoginForm from "../components/LoginForm";
 import back from "../assets/flecha-atras.png";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
@@ -25,9 +26,9 @@ export default function Login() {
             <div className="mb-9">
               <p className="text-xl lg:text-2xl">
                 Iniciar sesión o{" "}
-                <a href="/register" className="text-blue-800">
+                <Link to="/register" className="text-blue-800">
                   Registrarse
-                </a>
+                </Link>
               </p>
             </div>
             <div className="h-[100%]">
