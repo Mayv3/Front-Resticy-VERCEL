@@ -1,6 +1,7 @@
 import RegisterForm from "../components/RegisterForm";
 import back from "../assets/flecha-atras.png";
 import { Link } from "react-router-dom";
+import imgForm from "../assets/imgForm.jpg"
 
 export default function Register() {
   return (
@@ -17,8 +18,8 @@ export default function Register() {
           <div className="w-[40%] ">
             <img
               className="h-full w-full object-cover overflow-hidden rounded-l-lg hidden md:block"
-              src={"../assets/imgForm.jpg"}
-              alt=""
+              src={imgForm}
+              alt="Restaurante Elegante"
             />
           </div>
           <div className="p-10 md:p-15 bg-white w-full md:w-[60%] rounded">

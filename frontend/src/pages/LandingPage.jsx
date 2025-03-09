@@ -59,7 +59,7 @@ export default function LandingPage() {
         </div>
         <img className="hidden md:block w-full" src={waveDk} />
         <svg
-          className="md:hidden"
+          className="md:hidden relative top-1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1420 300"
         >
@@ -73,7 +73,7 @@ export default function LandingPage() {
 
       <section
         id="functions"
-        className="bg-[--marfil-color] min-h-[75vh] w-full  pb-14 flex justify-center"
+        className="bg-[--marfil-color] min-h-[75vh] w-full  pb-14 flex justify-center border-none"
       >
         <div
           className="lg:flex-row lg:max-w-[1200px] w-full flex flex-col items-center"
