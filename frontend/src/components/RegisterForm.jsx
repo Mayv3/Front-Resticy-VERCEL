@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InputField from "./InputField";
 import useAuth from "../hooks/useAuth.jsx";
+import { Link } from "react-router-dom";
 
 const RegisterForm = () => {
   const [formData, setFormData] = useState({});
